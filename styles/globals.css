@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+@layer base {
+
+  .timer-wrapper {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px;
+    border: solid 2px white;
+    border-radius: 5px;
+    
+  }
+  
+  .timer-inner {
+    color: #333;
+    display: flex;
+    border: solid 1px #fff;
+    padding: 1rem;
+    background-color: rgba(256, 256, 256, 0.8);
+    border-radius: 5px;
+  }
+  
+  .timer-segment {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .divider,
+  .time {
+    font-size: 1rem;
+  }
+  
+  .diver {
+    padding: 0 1rem;
+  }
+  
+  .label {
+    font-size: 10px;
+    margin: 0 20px;
+  }
+}
