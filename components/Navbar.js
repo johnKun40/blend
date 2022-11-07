@@ -2,8 +2,7 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose, AiOutlineSearch } from 'react-icons/ai';
 import {TbRecycle} from 'react-icons/tb';
-import Image from 'next/image';
-import Picture from "../public/Pic6.jpg";
+
 
 
 const Navbar = () => {
@@ -33,16 +32,16 @@ const Navbar = () => {
       <div className='flex flex-row justify-between text-black w-screen'>
         <div className='flex flex-col h-screen text-black'>
         <Link href='/#'>
-          <h1 style={{ color: `${textColor}` }} className='font-bold text-4xl z-20'>
+          <h1 style={{ color: `${textColor}` }} className='font-bold text-4xl z-20 cursor-pointer'>
             BLEND
           </h1>
         </Link>
-        <ul style={{ color: `${textColor}` }} className='hidden sm:flex flex-col mt-5 cursor-pointer'>
+        <ul style={{ color: `${textColor}` }} className='hidden sm:flex flex-col mt-5 cursor-pointer z-20'>
           <li className='mt-3 flex flex-row items-center gap-2'>
-            <Link href='/#'>CYCLE 1</Link> <TbRecycle />
+            <Link href='/cycleOne'>CYCLE 1</Link> <TbRecycle />
           </li>
           <li className='mt-3 flex flex-row items-center gap-2'>
-            <Link href='/#'>CYCLE 2</Link> <TbRecycle />
+            <Link href='/cycleTwo'>CYCLE 2</Link> <TbRecycle />
           </li>
         </ul>
         </div>
@@ -67,33 +66,30 @@ const Navbar = () => {
         >
           <ul>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/'>CYCLE 1</Link>
+              <Link href='/cycleOne'>CYCLE 1</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/#gallery'>CYCLE 2</Link>
+              <Link href='/cycleTwo'>CYCLE 2</Link>
             </li>
           </ul>
         </div>
       </div>
 
-      {/* <div>
-      <Image alt='picture' src={Picture} width='600' height='800'  />
-      </div> */}
 
 
 
-      <div className='flex-col h-screen text-right hidden md:flex'>
+      <div className='flex-col h-screen text-right hidden md:flex z-30'>
 
         <AiOutlineSearch className='self-end text-2xl' />
 
         <ul className='flex flex-col mt-8 text-sm'>
-          <Link href='/'>
+          <Link href='/#'>
           <li>LOG IN</li>
           </Link>
-          <Link href='/'>
+          <Link href='/#'>
           <li>CLIENT SERVICES</li>
           </Link>
-          <Link href='/'>
+          <Link href='/#'>
           <li>SUSTAINABILITY</li>
           </Link>
         </ul>
