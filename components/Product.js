@@ -12,7 +12,7 @@ function Product({card_Title, image, prize}) {
             <Link href='/productDisplay'>
             <Image alt='picture' src={image} height='450' width='250' className='cursor-pointer'/>
             </Link>
-            <p>{card_Title}</p>
+            <p className='lab'>{card_Title}</p>
             <h4>{prize}</h4>
           
         </div>
