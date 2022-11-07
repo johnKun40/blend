@@ -28,7 +28,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className='flex flex-row justify-between items-center p-6 w-screen'>
+    <div className='fixed flex flex-row justify-between items-center p-6 w-screen'>
       <div className='flex flex-row justify-between text-black w-screen'>
         <div className='flex flex-col h-screen text-black'>
         <Link href='/#'>
@@ -36,7 +36,7 @@ const Navbar = () => {
             BLEND
           </h1>
         </Link>
-        <ul style={{ color: `${textColor}` }} className='hidden sm:flex flex-col mt-5 cursor-pointer z-20'>
+        <ul style={{ color: `${textColor}` }} className='hidden lab sm:flex flex-col mt-5 cursor-pointer z-20'>
           <li className='mt-3 flex flex-row items-center gap-2'>
             <Link href='/cycleOne'>CYCLE 1</Link> <TbRecycle />
           </li>
@@ -82,12 +82,12 @@ const Navbar = () => {
 
         <AiOutlineSearch className='self-end text-2xl' />
 
-        <ul className='flex flex-col mt-8 text-sm'>
+        <ul className='flex flex-col mt-8 lab'>
           <Link href='/#'>
           <li>LOG IN</li>
           </Link>
           <Link href='/#'>
-          <li>CLIENT SERVICES</li>
+          <li>SERVICES</li>
           </Link>
           <Link href='/#'>
           <li>SUSTAINABILITY</li>

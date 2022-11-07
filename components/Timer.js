@@ -9,7 +9,7 @@ const Timer = () => {
     const [seconds, setSeconds] = useState(0);
 
     useEffect(() => {
-        const target = new Date("12/31/2022 23:59:59");
+        const target = new Date("12/1/2022 23:59:59");
     
         const interval = setInterval(() => {
           const now = new Date();
@@ -38,6 +38,7 @@ const Timer = () => {
       }, []);
 
       return (
+
         <div className="flex justify-center items-center h-screen">
               <div className="timer-wrapper">
                 <span className='flex justify-center text-lg'>Countdown to cycle 2</span>

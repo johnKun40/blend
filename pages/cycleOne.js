@@ -17,21 +17,21 @@ function cycleOne() {
 
 <Navbar />
 
-<div className='absolute z-10 inset-0  flex flex-row justify-center w-screen gap-2 text-black text-sm'>
+<div className='absolute z-10 inset-0  flex flex-row justify-center w-screen gap-1 text-black text-sm'>
       <Product image={ProductFour} card_Title='HAND BAG' />
       <Product image={ProductFour} card_Title='HAND BAG' />
       <Product image={ProductFour} card_Title='HAND BAG' />
 
 </div>
 
-<div className='absolute z-10 inset-0  flex flex-row justify-center w-screen gap-2 mt-[480px]'>
+<div className='absolute z-10 inset-0  flex flex-row justify-center w-screen gap-1 mt-[480px]'>
       <Product image={ProductFour} card_Title='HAND BAG' />
       <Product image={ProductFour} card_Title='HAND BAG' />
       <Product image={ProductFour} card_Title='HAND BAG' />
 
 </div>
 
-<div className='absolute z-10 inset-0  flex flex-row justify-center w-screen gap-2 mt-[960px]'>
+<div className='absolute z-10 inset-0  flex flex-row justify-center w-screen gap-1 mt-[960px]'>
       <Product image={ProductFour} card_Title='HAND BAG' />
       <Product image={ProductFour} card_Title='HAND BAG' />
       <Product image={ProductFour} card_Title='HAND BAG' />
