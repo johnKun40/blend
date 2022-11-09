@@ -28,7 +28,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className='fixed flex flex-row justify-between items-center p-6 w-screen'>
+    <div className='fixed flex flex-row justify-between items-center p-6 w-screen z-20'>
       <div className='flex flex-row justify-between text-black w-screen'>
         <div className='flex flex-col h-screen text-black'>
         <Link href='/#'>

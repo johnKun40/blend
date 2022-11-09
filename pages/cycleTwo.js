@@ -2,6 +2,8 @@ import React from 'react';
 import Head from 'next/head';
 import Timer from '../components/Timer';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+
 
 function cycleTwo() {
   return (
@@ -20,6 +22,10 @@ function cycleTwo() {
     <Timer />
 
 </div>
+
+<div className='absolute z-20 inset-0 mt-[700px]'>
+      <Footer />
+      </div>
 
 
 

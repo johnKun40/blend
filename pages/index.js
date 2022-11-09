@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import Product from '../components/Product'
 import ProductFour from '../public/sliderImages/ProductFour.jpg'
 import  Timer  from '../components/Timer'
@@ -18,9 +19,16 @@ export default function Home() {
 
       <Navbar />
 
-      <div className='absolute z-10 inset-0 pt-12'>
+      <div className='pt-12'>
       <Hero/>
       </div>
+
+
+      <div className='mt-20 w-screen bottom-0 left-0 z-auto'>
+      <Footer />
+      </div>
+
+
 
 
 
