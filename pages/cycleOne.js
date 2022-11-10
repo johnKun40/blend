@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Product from '../components/Product';
-import ProductFour from '../public/sliderImages/Pic7.jpg';
+import ProductFour from '../public/pic7.jpg';
 import Footer from '../components/Footer';
 
 

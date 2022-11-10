@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import Link from 'next/link';
 import Product from '../components/Product';
-import ProductFour from '../public/sliderImages/Pic7.jpg'
+import ProductFour from '../public/pic7.jpg'
 import Footer from '../components/Footer';
 import MyListbox from '../components/MyListbox';
 import {MdOutlineKeyboardArrowDown} from 'react-icons/md'
