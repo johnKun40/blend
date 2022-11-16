@@ -2,5 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/productDisplay": "pages/productDisplay.js"
+  "/productDisplay": "pages/productDisplay.js",
+  "/cycleOne": "pages/cycleOne.js",
+  "/": "pages/index.js"
 }

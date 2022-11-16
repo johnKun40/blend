@@ -5,8 +5,9 @@ import { Fragment } from 'react';
 
 const people = [
   { id: 1, name: 'SELECT CYCLE', unavailable: false },  
-  { id: 2, name: 'CYCLE 1', unavailable: false },
-  { id: 3, name: 'CYCLE 2', unavailable: false },
+  { id: 2, name: 'NEW', unavailable: false },
+  { id: 3, name: 'MID LIFE', unavailable: false },
+  { id: 3, name: 'END LIFE', unavailable: false },
 ]
 
 function MyListbox() {
