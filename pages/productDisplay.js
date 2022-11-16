@@ -4,7 +4,9 @@ import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import Link from 'next/link';
 import Product from '../components/Product';
-import ProductFour from '../public/pic7.jpg'
+import ProductOne from '../public/product/lsg1.png';
+import ProductOneSide from '../public/product/sidelsg2.png';
+import ProductOneBack from '../public/product/backlsg3.png';
 import Footer from '../components/Footer';
 import MyListbox from '../components/MyListbox';
 import {MdOutlineKeyboardArrowDown} from 'react-icons/md'
@@ -27,14 +29,16 @@ function productDisplay() {
 
 
 <div id='picture1' className='md:absolute z-20 inset-0  flex flex-row h-screen justify-center md:w-screen gap-1 text-black text-sm w-screen'>
-    <Image alt='picture' src={ProductFour}   width='500' className='cursor-pointer'/>
+    <Image alt='picture' src={ProductOne}   width='500' className='cursor-pointer'/>
 
 </div>
 
 <div className='md:fixed md:flex md:flex-col md:z-30 md:right-[80px] md:px-8 md:top-1 md:max-w-sm p-6'>
-        <h6 className='font-bold text-lg'>PRODUCT NAME</h6>
+        <h6 className='font-bold text-lg'>LE 5 À 7 HOBO BAG IN CROCODILE-EMBOSSED LEATHER</h6>
 
-        <p className='lab mt-16'>LONG SINGLE-BREASTED COAT WITH Assssssssssjjjjjjjjjjjjjjsss lorem and more stufendisnjdnjdjnddddddd NOTCHED LAPEL, stufasssssssssssssf more stuff SINGLE-BUTTON kknknknknknknknk</p>
+        <p className='font-bold text-lg mt-8'>$ 2,650</p>
+
+        <p className='lab mt-16'>SAINT LAURENT MONOGRAM HOBO BAG FEATURING AN INTERLACED METAL YSL INITIALS HOOK CLOSURE AND AN ADJUSTABLE SHOULDER STRAP.</p>
 
         <p className='font-bold text-md mt-8'>BLEND CYCLE</p>
 
@@ -46,34 +50,30 @@ function productDisplay() {
 
 <div className='hidden md:fixed lg:flex md:flex-col md:z-30 md:left-[370px] md:px-8 md:top-[400px] cursor-pointer'>   
         <div className='w-5 h-20'>
-           <a href='#picture1'> <Image src={ProductFour} layout='fill'  /> </a>
+           <a href='#picture1'> <Image src={ProductOne} layout='fill'  /> </a>
         </div>        
 </div>
 
 <div className='hidden md:fixed lg:flex md:flex-col md:z-30 md:left-[370px] md:px-8 md:top-[490px] cursor-pointer'>   
         <div className='w-5 h-20'>
-        <a href='#picture2'> <Image src={ProductFour} layout='fill'  /> </a>
+        <a href='#picture2'> <Image src={ProductOneSide} layout='fill'  /> </a>
         </div>        
 </div>
 
 <div className='hidden md:fixed lg:flex md:flex-col md:z-30 md:left-[370px] md:px-8 md:top-[580px] cursor-pointer'>   
         <div className='w-5 h-20'>
-        <a href='#picture3'> <Image src={ProductFour} layout='fill'  /> </a>
+        <a href='#picture3'> <Image src={ProductOneBack} layout='fill'  /> </a>
         </div>        
 </div>
 
-<div className='hidden md:fixed lg:flex md:flex-col md:z-30 md:left-[370px] md:px-8 md:top-[670px] cursor-pointer'>   
-        <div className='w-5 h-20'>
-        <a href='#picture4'> <Image src={ProductFour} layout='fill'  /> </a>
-        </div>        
-</div>
+
 
 <div id='picture2' className='absolute z-20 inset-0 w-screen h-screen hidden lg:flex justify-center text-black text-sm mt-[785px] '>
-    <Image alt='picture' src={ProductFour}  width='500' className='cursor-pointer'/>
+    <Image alt='picture' src={ProductOneSide}  width='500' className='cursor-pointer'/>
 </div>
 
 <div id='picture3' className='absolute z-20 inset-0 w-screen h-screen hidden lg:flex justify-center text-black text-sm mt-[1585px]'>
-    <Image alt='picture' src={ProductFour}  width='500' className='cursor-pointer'/>
+    <Image alt='picture' src={ProductOneBack}  width='500' className='cursor-pointer'/>
 </div>
 
 

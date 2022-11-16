@@ -41,7 +41,7 @@ const Timer = () => {
 
         <div className="flex justify-center items-center h-screen">
               <div className="timer-wrapper">
-                <span className='flex justify-center text-lg'>Countdown to cycle 2</span>
+                <span className='flex justify-center text-slate-400 text-lg'>Countdown to cycle 2</span>
                 <div className="timer-inner">
                   <div className="timer-segment">
                     <span className="time">{days}</span>

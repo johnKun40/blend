@@ -5,7 +5,7 @@ import Link from 'next/link';
 import ProductOne from "../public/sliderImages/ProductOne.jpg";
 import ProductTwo from "../public/sliderImages/ProductTwo.jpg";
 import ProductThree from "../public/sliderImages/ProductThree.jpg";
-import Picture from "../public/Pic6.jpg";
+import Picture from "../public/home.png";
 import  Timer  from './Timer';
 
 import 'slick-carousel/slick/slick.css';

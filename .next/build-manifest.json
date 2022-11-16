@@ -34,16 +34,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/cycleOne.js"
-    ],
-    "/cycleTwo": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/cycleTwo.js"
-    ],
-    "/productDisplay": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/productDisplay.js"
     ]
   },
   "ampFirstPages": []

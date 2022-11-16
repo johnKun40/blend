@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/cycleOne": "pages/cycleOne.js",
-  "/cycleTwo": "pages/cycleTwo.js",
-  "/productDisplay": "pages/productDisplay.js"
+  "/": "pages/index.js",
+  "/cycleOne": "pages/cycleOne.js"
 }

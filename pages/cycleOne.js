@@ -2,7 +2,15 @@ import React from 'react';
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Product from '../components/Product';
-import ProductFour from '../public/pic7.jpg';
+import ProductOne from '../public/product/lsg1.png';
+import ProductTwo from '../public/product/lsg2.png';
+import ProductThree from '../public/product/lsg3.png';
+import ProductFour from '../public/product/slg1.png';
+import ProductFive from '../public/product/slg2.png';
+import ProductSix from '../public/product/slg3.png';
+import ProductSeven from '../public/product/jew1.png';
+import ProductEight from '../public/product/jew2.png';
+import ProductNine from '../public/product/jew3.png';
 import Footer from '../components/Footer';
 
 
@@ -19,23 +27,23 @@ function cycleOne() {
 <Navbar />
 
 <div className='absolute z-20 inset-0  flex flex-row justify-center w-screen gap-1 text-black text-sm'>
-      <Product image={ProductFour} card_Title='HAND BAG' />
-      <Product image={ProductFour} card_Title='HAND BAG' />
-      <Product image={ProductFour} card_Title='HAND BAG' />
+      <Product image={ProductOne} />
+      <Product image={ProductTwo} />
+      <Product image={ProductThree} />
 
 </div>
 
-<div className='absolute z-20 inset-0  flex flex-row justify-center w-screen gap-1 mt-[480px]'>
-      <Product image={ProductFour} card_Title='HAND BAG' />
-      <Product image={ProductFour} card_Title='HAND BAG' />
-      <Product image={ProductFour} card_Title='HAND BAG' />
+<div className='absolute z-20 inset-0  flex flex-row justify-center w-screen gap-1 mt-[460px]'>
+      <Product image={ProductFour} />
+      <Product image={ProductFive} />
+      <Product image={ProductSix} />
 
 </div>
 
-<div className='absolute z-20 inset-0  flex flex-row justify-center w-screen gap-1 mt-[960px]'>
-      <Product image={ProductFour} card_Title='HAND BAG' />
-      <Product image={ProductFour} card_Title='HAND BAG' />
-      <Product image={ProductFour} card_Title='HAND BAG' />
+<div className='absolute z-20 inset-0  flex flex-row justify-center w-screen gap-1 mt-[920px]'>
+      <Product image={ProductSeven} />
+      <Product image={ProductEight} />
+      <Product image={ProductNine} />
 
 </div>
 
