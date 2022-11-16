@@ -30,16 +30,16 @@ function productDisplay() {
 <div className='md:absolute z-20 inset-0 flex flex-col h-screen w-screen items-center'>
 
 <div id='picture1' className=''>
-    <Image alt='picture' src={ProductOne} height='600' width='500' className='cursor-pointer'/>
+    <Image alt='picture' src={ProductOne} height='800' width='500' className='cursor-pointer'/>
 
 </div>
 
 <div id='picture2' >
-    <Image alt='picture' src={ProductOneSide}  height='600' width='500' className='cursor-pointer'/>
+    <Image alt='picture' src={ProductOneSide}  height='800' width='500' className='cursor-pointer'/>
 </div>
 
 <div id='picture3'>
-    <Image alt='picture' src={ProductOneBack}  height='600' width='500' className='cursor-pointer'/>
+    <Image alt='picture' src={ProductOneBack}  height='800' width='500' className='cursor-pointer'/>
 </div>
 
 </div>
@@ -86,7 +86,7 @@ function productDisplay() {
 
 
 
-<div className='absolute z-20 inset-0 mt-[1850px]'>
+<div className='absolute z-20 inset-0 mt-[2450px]'>
       <Footer />
       </div>
 
